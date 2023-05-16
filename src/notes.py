@@ -1,4 +1,4 @@
-from dp_bot_stor_db import *
+from dp_bot_store_db import *
 from aiogram.dispatcher.filters.state import StatesGroup, State
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
