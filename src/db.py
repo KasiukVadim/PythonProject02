@@ -3,7 +3,7 @@ import sqlite3 as sq
 class DB():
     def __init__(self):
         try:
-            self.sqlite_connection = sq.connect('BotDataBase.db')
+            self.sqlite_connection = sq.connect('../db/BotDataBase.db')
             self.cursor = self.sqlite_connection.cursor()
             print("База данных создана и успешно подключена к SQLite")
 
